@@ -32,7 +32,6 @@ export default function Header({ searchTerm, setSearchTerm, breeds, onSelectBree
                 <h1 className="text-3xl font-bold ">Breed Explorer</h1>
                 <div className="relative">
                     <input
-                        type="text"
                         value={searchTerm}
                         onChange={handleChange}
                         placeholder="Search breeds..."
